@@ -1,0 +1,4 @@
+[submodule "lui"]
+	path = lui
+	url = https://github.com/wUFr/LUI.git
+	branch = devel
