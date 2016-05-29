@@ -34,55 +34,56 @@
 		</header>
 		
 	</section>
-	
-	<section class="demo_content" style="overflow: hidden">
-		<div class="inside">
-			<h1>Mixins</h1>
-			<section class="item">
-				<h2>.lui.box-sizing</h2>
-				<div class="content">
-					<h3>.this(@args)</h3>
-					<p class="pre_title">Usage in less:</p>
-<pre>
+
+	<section class="container max_xl demo_content">
+		<div class="row">
+			<div class="col-12">
+				<h1>Mixins</h1>
+				<section class="item">
+					<h2>.lui.box-sizing</h2>
+					<div class="content">
+						<h3>.this(@args)</h3>
+
+<pre data-title="Usage:">
 .lui.box-sizing.this(@args);
 </pre>
-					<p class="pre_title">Returns</p>
-<pre>
+
+<pre data-title="Result:">
 -webkit-box-sizing: @args;
 -moz-box-sizing: @args;
 box-sizing: @args;
 </pre>
 
-					<h3>.border-box() || .border()</h3>
-					<p class="pre_title">Usage in less:</p>
-<pre>
+						<h3>.border-box() || .border()</h3>
+
+<pre data-title="Usage:">
 .lui.box-sizing.border-box();
 .lui.box-sizing.border();
 </pre>
-					<p class="pre_title">Returns</p>
-<pre>
+
+<pre data-title="Result:">
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 </pre>
 
+						<h3>.content-box() || .content()</h3>
 
-					<h3>.content-box() || .content()</h3>
-					<p class="pre_title">Usage in less:</p>
-<pre>
+<pre data-title="Usage:">
 .lui.box-sizing.content-box();
 .lui.box-sizing.content();
 </pre>
-					<p class="pre_title">Returns</p>
-<pre>
+
+<pre data-title="Result:">
 -webkit-box-sizing: content-box;
 -moz-box-sizing: content-box;
 box-sizing: content-box;
 </pre>
-					
-				</div>
-			</section>
+						
+					</div>
+				</section>
+			</div>
 		</div>
-	</div>
+	</section>
 </body>
 </html>
