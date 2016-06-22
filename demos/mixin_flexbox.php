@@ -1,48 +1,9 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>LUI - Less UI</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet/less" href="/demo.less" />
-	<script>
-		less = {
-			env: "development",
-			async: false,
-			fileAsync: false,
-			poll: 1000,
-			functions: {},
-			dumpLineNumbers: "comments",
-			relativeUrls: false
-		};
-	</script>
-	<script src="/lui/js/less/less.min.js" type="text/javascript"></script>
-
-	
-	<script src="/lui/js/jquery/jquery-2.2.0.min.js"></script>
-	<script src="/lui/js/jquery/ui/ui.js"></script>
-
-</head>
-<body>
-
-	<section class="demo_header">
-		<header>
-			LUI<span>Less UI</span>
-			<a class="github" href="https://github.com/wUFr/LUI" target="_blank">Follow project on GitHub</a>
-		</header>
-		
-	</section>
-	
-	<section class="container max_xl demo_content">
-		<div class="row">
-			<div class="col-12">
-				<h1>Mixins</h1>
-				<section class="item">
-					<h2>.lui.flexbox</h2>
-					<div class="content">
-						<h3>.block() || .box() || .flex-block()</h3>
+<h1>Mixins</h1>
+<section class="item">
+	<h2>.lui.flexbox</h2>
+	<div class="content">
+		<h3>.block() || .box() || .flex-block()</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.block();
@@ -56,7 +17,7 @@ display: -webkit-flex;
 display: flex;
 </pre>
 
-						<h3>.inline() || .flex-inline()</h3>
+		<h3>.inline() || .flex-inline()</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.inline();
@@ -69,7 +30,7 @@ display: -webkit-inline-flex;
 display: inline-flex;
 </pre>
 
-						<h3>.flow(@direction, @wrap)</h3>
+		<h3>.flow(@direction, @wrap)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.flow(@direction, @wrap);
@@ -83,7 +44,7 @@ display: inline-flex;
 flex-flow: @direction @wrap;
 </pre>
 
-						<h3>.align-content(@alignment)</h3>
+		<h3>.align-content(@alignment)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.align-content(@alignment);
@@ -96,7 +57,7 @@ flex-flow: @direction @wrap;
 align-content: @alignment;
 </pre>
 
-						<h3>.justify-content(@justification)</h3>
+		<h3>.justify-content(@justification)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.justify-content(@justification);
@@ -110,7 +71,7 @@ align-content: @alignment;
 justify-content: @justification;
 </pre>
 
-						<h3>.content.align(@alignment)</h3>
+		<h3>.content.align(@alignment)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.content.align(@alignment);
@@ -123,7 +84,7 @@ justify-content: @justification;
 align-content: @alignment;
 </pre>
 
-						<h3>.content.justify(@justification)</h3>
+		<h3>.content.justify(@justification)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.content.justify(@justification);
@@ -137,7 +98,7 @@ align-content: @alignment;
 justify-content: @justification;
 </pre>
 
-						<h3>.flex-direction(@direction) || .direction(@direction)</h3>
+		<h3>.flex-direction(@direction) || .direction(@direction)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.flex-direction(@direction);
@@ -151,7 +112,7 @@ justify-content: @justification;
 flex-direction: @direction;
 </pre>
 
-						<h3>.flex-wrap(@wrap) || .wrap(@wrap)</h3>
+		<h3>.flex-wrap(@wrap) || .wrap(@wrap)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.flex-wrap(@wrap);
@@ -165,7 +126,7 @@ flex-direction: @direction;
 flex-wrap: @wrap;
 </pre>
 
-						<h3>.align-items(@mode) || .items.align(@mode)</h3>
+		<h3>.align-items(@mode) || .items.align(@mode)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.align-items(@mode);
@@ -180,7 +141,7 @@ flex-wrap: @wrap;
 align-items: @mode;
 </pre>
 
-						<h3>.order(@order) || .items.order(@order)</h3>
+		<h3>.order(@order) || .items.order(@order)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.order(@order);
@@ -198,7 +159,7 @@ align-items: @mode;
 order: @order;
 </pre>
 
-						<h3>.flex(@args)</h3>
+		<h3>.flex(@args)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.flex(@args);
@@ -211,7 +172,7 @@ order: @order;
 flex: @args;
 </pre>
 
-						<h3>.flex-grow(@grow) || .grow(@grow)</h3>
+		<h3>.flex-grow(@grow) || .grow(@grow)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.flex-grow(@grow);
@@ -225,7 +186,7 @@ flex: @args;
 flex-grow: @grow;
 </pre>
 
-						<h3>.flex-shrink(@shrink) || .shrink(@shrink)</h3>
+		<h3>.flex-shrink(@shrink) || .shrink(@shrink)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.flex-shrink(@shrink);
@@ -239,7 +200,7 @@ flex-grow: @grow;
 flex-shrink: @shrink;
 </pre>
 
-						<h3>.flex-basis(@basis) || .basis(@basis)</h3>
+		<h3>.flex-basis(@basis) || .basis(@basis)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.flex-basis(@basis);
@@ -253,7 +214,7 @@ flex-shrink: @shrink;
 flex-basis: @basis;
 </pre>
 
-						<h3>.align-self(@align)</h3>
+		<h3>.align-self(@align)</h3>
 
 <pre data-title="Usage:">
 .lui.flexbox.align-self(@align);
@@ -266,10 +227,5 @@ flex-basis: @basis;
 align-self: @align;
 </pre>
 						
-					</div>
-				</section>
-			</div>
-		</div>
-	</section>
-</body>
-</html>
+	</div>
+</section>

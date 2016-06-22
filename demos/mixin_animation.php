@@ -1,48 +1,9 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>LUI - Less UI</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet/less" href="/demo.less" />
-	<script>
-		less = {
-			env: "development",
-			async: false,
-			fileAsync: false,
-			poll: 1000,
-			functions: {},
-			dumpLineNumbers: "comments",
-			relativeUrls: false
-		};
-	</script>
-	<script src="/lui/js/less/less.min.js" type="text/javascript"></script>
-
-	
-	<script src="/lui/js/jquery/jquery-2.2.0.min.js"></script>
-	<script src="/lui/js/jquery/ui/ui.js"></script>
-
-</head>
-<body>
-
-	<section class="demo_header">
-		<header>
-			LUI<span>Less UI</span>
-			<a class="github" href="https://github.com/wUFr/LUI" target="_blank">Follow project on GitHub</a>
-		</header>
-		
-	</section>
-	
-	<section class="container max_xl demo_content">
-		<div class="row">
-			<div class="col-12">
-				<h1>Mixins</h1>
-				<section class="item">
-					<h3>.lui.animation</h3>
-					<div class="content">
-						<h4>.this(@args)</h4>
+<h1>Mixins</h1>
+<section class="item">
+	<h3>.lui.animation</h3>
+	<div class="content">
+		<h4>.this(@args)</h4>
 
 <pre data-title="Usage:">
 .lui.animation.this(@args);
@@ -54,7 +15,7 @@
 animation: @args;
 </pre>
 
-						<h4>.delay(@delay)</h4>
+		<h4>.delay(@delay)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.delay(@delay);
@@ -66,7 +27,7 @@ animation: @args;
 animation-delay: @delay;
 </pre>
 
-						<h4>.direction(@direction)</h4>
+		<h4>.direction(@direction)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.direction(@direction);
@@ -78,7 +39,7 @@ animation-delay: @delay;
 animation-direction: @direction;
 </pre>
 
-						<h4>.duration(@duration)</h4>
+		<h4>.duration(@duration)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.duration(@duration);
@@ -90,7 +51,7 @@ animation-direction: @direction;
 animation-duration: @duration;
 </pre>
 
-						<h4>.fill-mode(@mode)</h4>
+		<h4>.fill-mode(@mode)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.fill-mode(@mode);
@@ -102,7 +63,7 @@ animation-duration: @duration;
 animation-fill-mode: @mode;
 </pre>
 
-						<h4>.iteration-count(@count) || .count(@count)</h4>
+		<h4>.iteration-count(@count) || .count(@count)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.iteration-count(@count);
@@ -115,7 +76,7 @@ animation-fill-mode: @mode;
 animation-iteration-count: @count;
 </pre>
 
-						<h4>.name(@name)</h4>
+		<h4>.name(@name)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.name(@name);
@@ -127,7 +88,7 @@ animation-iteration-count: @count;
 animation-name: @name;
 </pre>
 
-						<h4>.play-state(@state)</h4>
+		<h4>.play-state(@state)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.play-state(@state);
@@ -139,7 +100,7 @@ animation-name: @name;
 animation-play-state: @state;
 </pre>
 
-						<h4>.timing-function(@function)</h4>
+		<h4>.timing-function(@function)</h4>
 						
 <pre data-title="Usage:">
 .lui.animation.timing-function(@function);
@@ -151,10 +112,6 @@ animation-play-state: @state;
 animation-timing-function: @function;
 </pre>
 
-					</div>
-				</section>
-			</div>
-		</div>
-	</section>
-</body>
-</html>
+	</div>
+</section>
+		

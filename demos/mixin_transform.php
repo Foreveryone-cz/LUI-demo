@@ -1,48 +1,9 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>LUI - Less UI</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet/less" href="/demo.less" />
-	<script>
-		less = {
-			env: "development",
-			async: false,
-			fileAsync: false,
-			poll: 1000,
-			functions: {},
-			dumpLineNumbers: "comments",
-			relativeUrls: false
-		};
-	</script>
-	<script src="/lui/js/less/less.min.js" type="text/javascript"></script>
-
-	
-	<script src="/lui/js/jquery/jquery-2.2.0.min.js"></script>
-	<script src="/lui/js/jquery/ui/ui.js"></script>
-
-</head>
-<body>
-
-	<section class="demo_header">
-		<header>
-			LUI<span>Less UI</span>
-			<a class="github" href="https://github.com/wUFr/LUI" target="_blank">Follow project on GitHub</a>
-		</header>
-		
-	</section>
-	
-	<section class="container max_xl demo_content">
-		<div class="row">
-			<div class="col-12">
-				<h1>Mixins</h1>
-				<section class="item">
-					<h2>.lui.transform</h2>
-					<div class="content">
-						<h3>.this(@args)</h3>
+<h1>Mixins</h1>
+<section class="item">
+	<h2>.lui.transform</h2>
+	<div class="content">
+		<h3>.this(@args)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.this(@args);
@@ -55,7 +16,7 @@
 transform: @args;
 </pre>
 
-						<h3>.origin(@args)</h3>
+		<h3>.origin(@args)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.origin(@args);
@@ -69,7 +30,7 @@ transform-origin: @args;
 </pre>
 
 
-						<h3>.style(@style)</h3>
+		<h3>.style(@style)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.style(@style);
@@ -83,7 +44,7 @@ transform-style: @style;
 </pre>
 
 
-						<h3>.rotate(@deg)</h3>
+		<h3>.rotate(@deg)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.rotate(@deg);
@@ -97,7 +58,7 @@ transform: rotate(@deg);
 </pre>
 
 
-						<h3>.scale(@scale)</h3>
+		<h3>.scale(@scale)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.scale(@scale);
@@ -111,7 +72,7 @@ transform: scale(@scale);
 </pre>
 
 
-						<h3>.translate(@x,@y)</h3>
+		<h3>.translate(@x,@y)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.translate(@x,@y);
@@ -125,7 +86,7 @@ transform: translate(@x,@y);
 </pre>
 
 
-						<h3>.translate2d(@x,@y)</h3>
+		<h3>.translate2d(@x,@y)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.translate2d(@x,@y);
@@ -142,7 +103,7 @@ transform: translate(@x,@y);
 transform: translate3d(@x,@y,0);
 </pre>
 
-						<h3>.translate3d(@x,@y,@z)</h3>
+		<h3>.translate3d(@x,@y,@z)</h3>
 
 <pre data-title="Usage:">
 .lui.transform.translate3d(@x,@y,@z);
@@ -155,10 +116,5 @@ transform: translate3d(@x,@y,0);
 transform: translate3d(@x,@y,@z);
 </pre>
 						
-					</div>
-				</section>
-			</div>
-		</div>
-	</section>
-</body>
-</html>
+	</div>
+</section>

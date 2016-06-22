@@ -1,49 +1,10 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>LUI - Less UI</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet/less" href="/demo.less" />
-	<script>
-		less = {
-			env: "development",
-			async: false,
-			fileAsync: false,
-			poll: 1000,
-			functions: {},
-			dumpLineNumbers: "comments",
-			relativeUrls: false
-		};
-	</script>
-	<script src="/lui/js/less/less.min.js" type="text/javascript"></script>
-
-	
-	<script src="/lui/js/jquery/jquery-2.2.0.min.js"></script>
-	<script src="/lui/js/jquery/ui/ui.js"></script>
-
-</head>
-<body>
-
-	<section class="demo_header">
-		<header>
-			LUI<span>Less UI</span>
-			<a class="github" href="https://github.com/wUFr/LUI" target="_blank">Follow project on GitHub</a>
-		</header>
-		
-	</section>
-	
-	<section class="container max_xl demo_content">
-		<div class="row">
-			<div class="col-12">
-				<h1>Mixins</h1>
-				<section class="item">
-					<h2>.lui.gradient</h2>
-					<div class="content">
-						<h3>.linear.this(~"@args")</h3>
-						<p><strong>! its important to write it like this with ~"@args" becouse "," between colors</strong></p>
+<h1>Mixins</h1>
+<section class="item">
+	<h2>.lui.gradient</h2>
+	<div class="content">
+		<h3>.linear.this(~"@args")</h3>
+		<p><strong>! its important to write it like this with ~"@args" becouse "," between colors</strong></p>
 
 <pre data-title="Usage:">
 .lui.gradient.linear.this(~"@args");
@@ -58,9 +19,9 @@ background: linear-gradient(@args);
 .lui.gradient.linear.this(~"45deg, black 0%, white 50%, orange 100%");
 </pre>
 
-						<div class="demo_gradient this"></div>
+		<div class="demo_gradient this"></div>
 
-						<h3>.linear.vertical(~"@args")</h3>
+		<h3>.linear.vertical(~"@args")</h3>
 
 <pre data-title="Usage:">
 .lui.gradient.linear.vertical(~"@args");
@@ -75,9 +36,9 @@ background: linear-gradient(@args);
 .lui.gradient.linear.vertical(~"black 0%, white 50%, orange 100%");
 </pre>
 
-						<div class="demo_gradient vertical"></div>
+		<div class="demo_gradient vertical"></div>
 
-						<h3>.linear.horizontal(~"@args")</h3>
+		<h3>.linear.horizontal(~"@args")</h3>
 
 <pre data-title="Usage:">
 .lui.gradient.linear.horizontal(~"@args");
@@ -92,9 +53,9 @@ background: linear-gradient(90deg @args);
 .lui.gradient.linear.horizontal(~"black 0%, white 50%, orange 100%");
 </pre>
 
-						<div class="demo_gradient horizontal"></div>
+		<div class="demo_gradient horizontal"></div>
 
-						<h3>.linear.diagonal.left2right(~"@args")</h3>
+		<h3>.linear.diagonal.left2right(~"@args")</h3>
 
 <pre data-title="Usage:">
 .lui.gradient.linear.left2right(~"@args");
@@ -109,9 +70,9 @@ background: linear-gradient(135deg, @args);
 .lui.gradient.linear.diagonal(~"black 0%, white 50%, orange 100%");
 </pre>
 
-						<div class="demo_gradient diagonal"></div>
+		<div class="demo_gradient diagonal"></div>
 
-						<h3>.linear.diagonal.right2left(@args)</h3>
+		<h3>.linear.diagonal.right2left(@args)</h3>
 
 <pre data-title="Usage:">
 .lui.gradient.linear.right2left(~"@args");
@@ -126,9 +87,9 @@ background: linear-gradient(135deg, @args);
 .lui.gradient.linear.diagonal.right2left(~"black 0%, white 50%, orange 100%");
 </pre>
 
-						<div class="demo_gradient diagonal2"></div>
+		<div class="demo_gradient diagonal2"></div>
 
-						<h3>.radial.this(~"@args")</h3>
+		<h3>.radial.this(~"@args")</h3>
 
 <pre data-title="Usage:">
 .lui.gradient.radial.this(~"@args");
@@ -145,15 +106,15 @@ background: radial-gradient(@args);
 .lui.gradient.radial.this(~"black 0%, white 50%, orange 100%");
 </pre>
 
-						<div class="demo_gradient radial_this"></div>
+		<div class="demo_gradient radial_this"></div>
 
 <pre data-title="Demo:">
 .lui.gradient.radial.this(~"circle, black 0%, white 50%, orange 100%");
 </pre>
 
-						<div class="demo_gradient radial_this2"></div>
+		<div class="demo_gradient radial_this2"></div>
 
-						<h3>.radial.repeat(~"@args")</h3>
+		<h3>.radial.repeat(~"@args")</h3>
 
 <pre data-title="Usage:">
 .lui.gradient.radial.repeat(~"@args");
@@ -170,12 +131,7 @@ background: repeating-radial-gradient(@args);
 .lui.gradient.radial.repeat(~"circle, black 0%, white 25%, orange 50%");
 </pre>
 
-						<div class="demo_gradient radial_repeat"></div>
+		<div class="demo_gradient radial_repeat"></div>
 
-					</div>
-				</section>
-			</div>
-		</div>
-	</section>
-</body>
-</html>
+	</div>
+</section>
