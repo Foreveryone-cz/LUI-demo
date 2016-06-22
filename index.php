@@ -29,6 +29,7 @@
 	<script src="/lui/js/jquery/jquery-2.2.0.min.js"></script>
 	<script src="/lui/js/jquery/ui/ui.js"></script>
 
+	<script src="/js/flexibility.min.js"></script>
 </head>
 <body>
 
