@@ -30,7 +30,7 @@
 	<script src="/lui/js/jquery/jquery-ui.js"></script>
 	<script src="/lui/js/jquery/ui/ui.js"></script>
 
-	<script src="/js/flexibility.min.js"></script>
+	<script src="/js/flexibility/flexibility.min.js"></script>
 </head>
 <body>
 
