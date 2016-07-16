@@ -35,7 +35,7 @@
 	<section class="demo_header">
 		<header>
 			LUI<span>Less UI</span>
-			<a class="github" href="https://github.com/wUFr/LUI" target="_blank">Follow project on GitHub</a>
+			<a class="github" href="https://github.com/Foreveryone-cz/LUI" target="_blank">Follow project on GitHub</a>
 			<a class="home" href="//<?php echo $_SERVER['SERVER_NAME']; ?>">Home</a>
 		</header>
 		
