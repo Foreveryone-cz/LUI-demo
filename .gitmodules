@@ -1,0 +1,4 @@
+[submodule "lui"]
+	path = lui
+	url = https://github.com/Foreveryone-cz/LUI
+	branch = devel
