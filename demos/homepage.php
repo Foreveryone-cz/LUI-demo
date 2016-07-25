@@ -2,19 +2,13 @@
 <h1>Grid system</h1>
 <ul>
 	<li>
-		<a href="/demo/grid">Demo</a>
+		<a href="/demo/grid_basics">Basics</a>
 	</li>
 	<li>
-		<a href="/demo/grid_basics">Basics</a> (documentation WIP)
+		<a href="/demo/grid_position">Position</a>
 	</li>
 	<li>
-		<a href="/demo/grid_dimensions">Columns dimensions</a> (documentation WIP)
-	</li>
-	<li>
-		<a href="/demo/grid_position">Columns position</a> (documentation WIP)
-	</li>
-	<li>
-		<a href="/demo/grid_sizes">Columns sizes</a> (documentation WIP)
+		<a href="/demo/grid_sizes">Sizes</a>
 	</li>
 	
 </ul>
