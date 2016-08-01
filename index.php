@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-	<?php if(0){ ?>
+	<?php if(1){ ?>
 		<link rel="stylesheet/less" href="/demo.less" />
 		<script>
 			less = {

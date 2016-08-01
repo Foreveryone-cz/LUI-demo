@@ -104,6 +104,50 @@
 			</div>
 		</div>
 	</div>
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block">Input postfix demo (FA)</label>
+		</div>
+		<div class="col-md-5 col-sm-12 col-xs-12">
+			<div class="input postfix">
+				<input type="text" placeholder="ololololo" />
+				<div class="lui_postfix fa_a_file"></div>
+			</div>
+		</div>
+	</div>
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block">Input prefix demo (FA)</label>
+		</div>
+		<div class="col-md-5 col-sm-12 col-xs-12">
+			<div class="input prefix">
+				<div class="lui_prefix fa_b_search"></div>
+				<input type="text" placeholder="ololololo" />
+			</div>
+		</div>
+	</div>
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block">Input postfix demo (as button)</label>
+		</div>
+		<div class="col-md-5 col-sm-12 col-xs-12">
+			<div class="input postfix">
+				<input type="text" placeholder="ololololo" />
+				<a href="#" class="lui_postfix">add file</a>
+			</div>
+		</div>
+	</div>
+	<div class="item row va-center">
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<label class="label sm-block">Input prefix demo (as button)</label>
+		</div>
+		<div class="col-md-5 col-sm-12 col-xs-12">
+			<div class="input prefix">
+				<a href="#" class="lui_prefix fa_b_search"></a>
+				<input type="text" placeholder="ololololo" />
+			</div>
+		</div>
+	</div>
 </form>
 
 

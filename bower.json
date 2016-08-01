@@ -1,0 +1,23 @@
+{
+  "name": "LUI-demo",
+  "homepage": "https://github.com/Foreveryone-cz/LUI-demo",
+  "description": "Demo pages for front-end framework LUI",
+  "main": "index.php",
+  "keywords": [
+    "LUI",
+    "front-end",
+    "less",
+    "framework"
+  ],
+  "authors": [
+    "Jiří Bělský"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
