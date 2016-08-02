@@ -56,8 +56,8 @@ class="<span class="highlight">lui_button primary</span>"
 		<h4>FontAwesome compatible</h4>
 		
 		<p>
-			<button class="lui_button primary fa_b-eye">.lui_button.primary.fa_b-eye</button>
-			<button class="lui_button confirm fa_a-eye">.lui_button.confirm.fa_a-eye</button>
+			<button class="lui_button primary fa_b_eye">.lui_button.primary.fa_b_eye</button>
+			<button class="lui_button confirm fa_a_eye">.lui_button.confirm.fa_a_eye</button>
 		</p>
 		
 		<hr />
@@ -87,20 +87,20 @@ class="<span class="highlight">lui_button primary fa_b_eye small</span>"
 						
 		<p>
 			
-			<button class="lui_button primary fa_b-eye big">.lui_button.primary.fa_b_eye</button>
+			<button class="lui_button primary fa_b_eye big">.lui_button.primary.fa_b_eye</button>
 			<br />
-			<button class="lui_button primary fa_b-eye">.lui_button.primary.fa_b_eye</button>
+			<button class="lui_button primary fa_b_eye">.lui_button.primary.fa_b_eye</button>
 			<br />
-			<button class="lui_button primary fa_b-eye small">.lui_button.primary.fa_b_eye</button>
+			<button class="lui_button primary fa_b_eye small">.lui_button.primary.fa_b_eye</button>
 		</p>
 
 		<hr />
 
-		<button class="lui_button primary fa_a-eye big">.lui_button.primary.fa_a_eye</button>
+		<button class="lui_button primary fa_a_eye big">.lui_button.primary.fa_a_eye</button>
 			<br />
-			<button class="lui_button primary fa_a-eye">.lui_button.primary.fa_a_eye</button>
+			<button class="lui_button primary fa_a_eye">.lui_button.primary.fa_a_eye</button>
 			<br />
-			<button class="lui_button primary fa_a-eye small">.lui_button.primary.fa_a_eye</button>
+			<button class="lui_button primary fa_a_eye small">.lui_button.primary.fa_a_eye</button>
 		
 
 	</div>
