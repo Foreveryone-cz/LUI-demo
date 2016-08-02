@@ -399,37 +399,37 @@
 <h2 class="demo">11 columns </h2>
 <div class="container demo">
 	<div class="row demo">
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
-		<div class="col-10th demo_col">
+		<div class="col-11th demo_col">
 			.col-11th
 		</div>
 	</div>
